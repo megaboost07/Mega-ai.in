@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mega ai assistant</title>
+
+<style>
+/* ===== BASE ===== */
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#000;
+    color:#fff;
+    overflow-x:hidden;
+}
+.container{
+    padding:20px;
+    text-align:center;
+    position:relative;
+    z-index:5;
+}
+
+/* ===== MOVING BACKGROUND ORBS ===== */
+.bg span{
+    position:fixed;
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    background:radial-gradient(circle, rgba(0,255,255,.35), transparent 70%);
+    animation: move 22s linear infinite;
+    filter: blur(6px);
+    z-index:1;
+}
+.bg span:nth-child(1){top:10%; left:5%;}
+.bg span:nth-child(2){top:60%; left:10%; animation-duration:28s;}
+.bg span:nth-child(3){top:20%; right:5%; animation-duration:26s;}
+.bg span:nth-child(4){bottom:10%; right:15%; animation-duration:30s;}
+
+@keyframes move{
+    0%{transform:translate(0,0) rotate(0deg);}
+    50%{transform:translate(60px,-80px) rotate(180deg);}
+    100%{transform:translate(0,0) rotate(360deg);}
+}
+
+/* ===== LOGO NEXT LEVEL ===== */
+.logo-wrap{
+    position:relative;
+    width:180px;
+    height:180px;
+    margin:35px auto 25px;
+    z-index:10;
+}
+.ring{
+    position:absolute;
+    inset:0;
+    border-radius:50%;
+    border:2px solid rgba(0,255,255,.6);
+    animation: spin 6s linear infinite;
+}
+.ring::after{
+    content:"";
+    position:absolute;
+    inset:-12px;
+    border-radius:50%;
+    border:2px dashed rgba(0,255,255,.35);
+    animation: spinReverse 10s linear infinite;
+}
+
+@keyframes spin{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+@keyframes spinReverse{
+    0%{transform:rotate(360deg);}
+    100%{transform:rotate(0deg);}
+}
+
+.logo-img{
+    position:absolute;
+    inset:35px;
+    background:#000;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 0 30px #00ffe5;
+}
+.logo-img img{
+    width:85%;
+    border-radius:50%;
+}
+
+/* ===== TEXT ===== */
+h1{margin:10px 0;}
+.subtitle{color:#7ffcff;font-size:14px;}
+
+/* ===== BUTTONS ===== */
+.btn{
+    display:block;
+    width:90%;
+    max-width:360px;
+    margin:16px auto;
+    padding:16px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#fff;
+    background:#111;
+    border:1px solid rgba(0,255,255,.5);
+    box-shadow:0 0 15px rgba(0,255,255,.5);
+    transition:.3s;
+}
+.btn:hover{transform:scale(1.05);}
+.btn-orange{
+    background:linear-gradient(90deg,#ff00ff,#00ffff);
+    border:none;
+}
+
+/* ===== CARDS ===== */
+.card{
+    background:rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:18px;
+    margin:20px 0;
+}
+.card h3{text-align:center;}
+.icon{text-align:center;font-size:28px;}
+
+/* ===== STATS ===== */
+.stats{display:flex;gap:10px;}
+.stat{
+    flex:1;
+    background:rgba(255,255,255,.08);
+    border-radius:14px;
+    padding:15px;
+}
+
+/* ===== FOOTER ===== */
+.footer{
+    color:#aaa;
+    font-size:12px;
+    margin:30px 0;
+}
+</style>
+</head>
+
+<body>
+
+<!-- BACKGROUND -->
+<div class="bg">
+    <span></span><span></span><span></span><span></span>
+</div>
+
+<div class="container">
+
+<!-- LOGO -->
+<div class="logo-wrap">
+    <div class="ring"></div>
+    <div class="logo-img">
+        <img src="https://i.supaimg.com/bec33017-7b31-4f97-a67a-6c49d6e5fee4.webp">
+    </div>
+</div>
+
+<h1>Mega ai</h1>
+<div class="subtitle">
+Mega ai is best coding html css Java python coding best ai download now!!
+</div>
+
+<a class="btn" href="https://t.me/+y4__XGNTO4w0ZmE1" target="_blank">JOIN TELEGRAM CHANNEL</a>
+<a class="btn" href="https://www.youtube.com/@kapil_h4x_live" target="_blank">SUBSCRIBE YOUTUBE CHANNEL</a>
+<a class="btn btn-orange" href="https://apkfab.com/mega-chat-ai/mega.chat.in/apk?h=4bad5bfe1a70dc922bee1d8339b9faf00e383b90f500f925eac97e19582df60a">DOWNLOAD APK</a>
+
+<div class="card">
+<div class="icon">📱</div>
+<h3>App privacy</h3>
+<p>Hi, I’m Kapil.
+My app is Mega AI, developed by Kapil Chandra Das.
+Please use my AI and share your feedback on Telegram.
+There is no login system in the app.
+If you like the AI, please support it 100% privacy.</p>
+</div>
+
+<div class="card">
+<div class="icon">👤</div>
+<h3>Customer Support</h3>
+<p>We support users while they face any issue with our services. ig- kapil_das2008</p>
+</div>
+
+<div class="card">
+<div class="icon">📜</div>
+<h3>User Policy</h3>
+<p>Users must follow the rules and provide correct details.</p>
+</div>
+
+<div class="card">
+<h3>Our Platform Stats</h3>
+<div class="stats">
+<div class="stat"><b>3.5k</b><br>Downloads</div>
+<div class="stat"><b>965+</b><br>Users</div>
+<div class="stat"><b>600+</b><br>File Uploads</div>
+</div>
+</div>
+
+<div class="footer">© MEGA AI — ALL COPYRIGHT RESERVED 2025</div>
+
+</div>
+</body>
+</html>
